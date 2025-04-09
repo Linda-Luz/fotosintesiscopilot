@@ -1,0 +1,8 @@
+// scripts.js
+document.addEventListener('DOMContentLoaded', function() {
+    const animacion1 = document.getElementById('animacion1');
+    const animacion2 = document.getElementById('animacion2');
+
+    animacion1.innerHTML = '<img src="animacion1.gif" alt="Animación 1: Fotosíntesis">';
+    animacion2.innerHTML = '<img src="animacion2.gif" alt="Animación 2: Detalles del Proceso">';
+});
